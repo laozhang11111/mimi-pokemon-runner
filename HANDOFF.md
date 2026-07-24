@@ -1,10 +1,12 @@
-# 张米米大战宝可梦项目交接文档
+# 张米米宝可梦横版躲避游戏交接文档
 
-本文档用于让新的 AI 助手或人类开发者快速接手本项目。它整理了本项目从最初需求到当前实现状态的关键上下文、部署方式、文件结构和后续维护注意事项。
+最后更新：2026-07-24
+
+本文档只负责旧版“横版躲避游戏”，也就是 `mimi.zhangduotian.site` 对应的玩法。它整理了本游戏从最初需求到当前实现状态的关键上下文、部署方式、文件结构和后续维护注意事项。
 
 ## 1. 项目概览
 
-- 项目名称：张米米大战宝可梦
+- 项目名称：张米米宝可梦横版躲避游戏
 - 项目类型：网页 Canvas 横版躲避小游戏
 - 当前独立归档路径：`/Users/zhangduotian/Documents/Codex/2026-07-22/users-zhangduotian-documents-codex-2026-06/mimi-pokemon-runner`
 - GitHub 独立仓库：`laozhang11111/mimi-pokemon-runner`
@@ -16,9 +18,21 @@
 
 游戏核心是：玩家控制家庭角色躲避宝可梦，收集精灵球回血，通过宝可梦得分，最终得分写入 SQLite 排行榜。
 
-> 重要：本仓库专门保存 `mimi.zhangduotian.site` 的旧版横版躲避游戏。它与 `zhangduotian.site/duizhan/` 的宝可梦对战项目相互独立；维护或部署时不要把两个仓库的工作目录、服务目录和 GitHub Actions 密钥混用。
+## 2. 与宝可梦对战游戏的边界
 
-## 2. 用户长期偏好
+这是一款独立游戏，不是 `zhangduotian.site/duizhan/` 的子模块，也不是宝可梦对战项目的旧页面。
+
+| 项目 | 本游戏：横版躲避 | 另一个游戏：宝可梦像素对战 |
+| --- | --- | --- |
+| 线上地址 | `http://mimi.zhangduotian.site` | `https://zhangduotian.site/duizhan/` |
+| GitHub 仓库 | `laozhang11111/mimi-pokemon-runner` | `laozhang11111/pixel-hisui-runner` |
+| 本地目录 | `mimi-pokemon-runner` | `/Users/zhangduotian/Documents/Codex/2026-06-30/bang/pixel-hisui-runner` |
+| 服务用途 | Canvas 横版躲避、排行榜 | 回合制宝可梦对战、馆主挑战、对战记录 |
+| 数据 | SQLite 分数榜 | JSON 对战记录和馆主进度 |
+
+维护或部署时不要混用两个仓库的工作目录、服务目录、GitHub Actions 密钥、Nginx 配置和 systemd 服务。旧版横版躲避游戏的内容不要被宝可梦对战项目覆盖。
+
+## 3. 用户长期偏好
 
 用户偏好非常明确：
 
@@ -29,7 +43,7 @@
 - 用户经常会基于截图反馈视觉问题，优先按截图调整。
 - 用户不喜欢无效按钮或不可点击 UI，看到就希望删掉或改成可用入口。
 
-## 3. 当前玩法规则
+## 4. 当前玩法规则
 
 ### 基础规则
 
@@ -79,7 +93,7 @@
 
 注意：上/下方向是跳起和蹲下动作，碰撞体积减半。
 
-## 4. 难度设计
+## 5. 难度设计
 
 当前已有难度递增逻辑：
 
@@ -100,7 +114,7 @@
 
 相关代码位置：`game.js` 中的 `getDifficulty()`、`maybeTriggerTeamShield()`、`drawPlayerPose()`。
 
-## 5. 素材与角色贴图
+## 6. 素材与角色贴图
 
 全部素材位于：
 
@@ -195,7 +209,7 @@
 
 相关代码位置：`game.js` 中的 `drawBackground()`、`drawSchoolSkyMotion()`、`drawSchoolYard()`。
 
-## 6. 宝可梦素材与图鉴
+## 7. 宝可梦素材与图鉴
 
 项目当前使用真实宝可梦 sprite，不再使用原创小怪。
 
@@ -236,7 +250,7 @@
 - 之前出现过所有宝可梦都显示成“宝可梦”的问题，后来修复为：先后台加载图鉴，再按 id 恢复中文名。
 - 相关代码：`createPokemonDeck()`、`pokemonName()`、`hydratePokemonDeck()`。
 
-## 7. 数据库与排行榜
+## 8. 数据库与排行榜
 
 数据库使用 Node 内置 SQLite API：
 
@@ -277,7 +291,7 @@ CREATE TABLE IF NOT EXISTS scores (
 - `game.js` 中的 `saveScore()`、`loadScores()`、`scoreCard()`
 - `styles.css` 中的 `.scoreboard`、`.score-cover-*`
 
-## 8. 本地运行
+## 9. 本地运行
 
 在项目目录执行：
 
@@ -310,7 +324,7 @@ npm run check
 
 注意：项目依赖 Node 的 `node:sqlite`，线上曾使用较新 Node 版本。如果低版本 Node 报错，需要升级 Node。
 
-## 9. 线上部署
+## 10. 线上部署
 
 ### GitHub 自动部署
 
@@ -385,7 +399,7 @@ curl -L -s http://mimi.zhangduotian.site/game.js | rg -n "school-drawing-bg|draw
 curl -L -I http://mimi.zhangduotian.site/image/school-drawing-bg.png
 ```
 
-## 10. 最近重要提交
+## 11. 最近重要提交
 
 最近提交记录：
 
@@ -416,7 +430,7 @@ b0952b1 Normalize Lao Zhang pose head scale
 - `040be26`：排行榜展示和垂直动作贴图优化。
 - `17d74ef`：增加三人模式。
 
-## 11. 历史需求时间线摘要
+## 12. 历史需求时间线摘要
 
 ### 第一阶段：单人横版游戏
 
@@ -529,7 +543,7 @@ b0952b1 Normalize Lao Zhang pose head scale
 - 放入游戏作为背景。
 - 加入动态变化层。
 
-## 12. 关键代码位置
+## 13. 关键代码位置
 
 - `index.html`
   - 页面结构
@@ -568,7 +582,7 @@ b0952b1 Normalize Lao Zhang pose head scale
 - `fix-laozhang-sprites.js`
   - 老张贴图修复脚本
 
-## 13. 维护注意事项
+## 14. 维护注意事项
 
 ### 不要轻易改动角色缩放逻辑
 
@@ -611,7 +625,7 @@ b0952b1 Normalize Lao Zhang pose head scale
 - 如果有，多半是浏览器缓存。
 - 如果没有，查 GitHub Actions 或服务器拉取状态。
 
-## 14. 推荐接手流程
+## 15. 推荐接手流程
 
 每次接到新需求，建议：
 
@@ -641,7 +655,7 @@ git push
 
 7. 告诉用户提交号和改动摘要。
 
-## 15. 当前已知风险
+## 16. 当前已知风险
 
 - 项目没有完整自动化浏览器测试，主要靠语法检查和用户视觉确认。
 - 角色贴图比例是手工调出来的，不是统一骨骼动画系统。
@@ -649,6 +663,6 @@ git push
 - 大量宝可梦图片会增加项目体积。
 - Node 的 `node:sqlite` 对 Node 版本有要求，低版本可能不支持。
 
-## 16. 给下一个 AI 的一句话总结
+## 17. 给下一个 AI 的一句话总结
 
 这是一个用户和女儿一起玩的家庭小游戏，最重要的是“好玩、清晰、像素风、能上线”。改动时少做抽象重构，多按截图和用户反馈精确调整；提交前跑 `npm run check`，推送后告诉用户提交号。
