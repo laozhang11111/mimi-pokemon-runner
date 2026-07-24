@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" shape-rendering="crispEdges">
+  <rect width="192" height="192" fill="none"/>
+  <path d="M 72 76 L 123 72 L 139 92 L 117 114 L 74 112 L 50 94 Z" fill="#2b1e19"/>
+  <path d="M 69 70 L 122 68 L 135 87 L 111 107 L 76 108 L 57 90 Z" fill="#c68152"/>
+  <path d="M 84 83 L 111 82 L 107 102 L 87 103 Z" fill="#dfa36f"/>
+  <path d="M 96 76 L 99 75 L 91 104 L 102 104 Z" fill="#ffd2a0"/>
+  <path d="M 75 42 L 106 38 L 118 65 L 104 78 L 76 77 L 65 62 Z" fill="#2b1e19"/>
+  <path d="M 76 44 L 105 41 L 115 62 L 101 74 L 78 74 L 68 61 Z" fill="#dfa36f"/>
+  <path d="M 88 52 L 98 50 L 92 64 L 86 66 Z" fill="#ffd2a0"/>
+  <rect x="79" y="16" width="8" height="27" fill="#3d3430"/>
+  <rect x="91" y="10" width="8" height="34" fill="#3d3430"/>
+  <rect x="94" y="14" width="8" height="29" fill="#3d3430"/>
+  <path d="M 134 94 L 159 100 L 167 111 L 139 113 Z" fill="#72412e"/>
+  <rect x="82" y="58" width="6" height="7" fill="#2b1e19"/>
+  <rect x="99" y="57" width="6" height="7" fill="#2b1e19"/>
+  <rect x="84" y="59" width="2" height="2" fill="#ffffff"/>
+  <rect x="101" y="58" width="2" height="2" fill="#ffffff"/>
+  <rect x="82" y="70" width="18" height="4" fill="#2b1e19"/>
+  <rect x="74" y="106" width="11" height="11" fill="#2b1e19"/>
+  <rect x="112" y="106" width="11" height="11" fill="#2b1e19"/>
+  <rect x="72" y="115" width="21" height="5" fill="#eee8de"/>
+  <rect x="108" y="115" width="21" height="5" fill="#eee8de"/>
+
+</svg>

@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080">
+  <rect width="1440" height="1080" fill="#f6ead3"/>
+  <text x="34" y="48" fill="#26241f" font-size="28" font-family="Arial, sans-serif" font-weight="700">Stardew-like crisp sprite preview</text>
+  <text x="34" y="78" fill="#6a5749" font-size="16" font-family="Arial, sans-serif">player + pokemon-0001 to pokemon-0059</text>
+  <rect x="34" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="player.png" x="65" y="116" width="56" height="119" preserveAspectRatio="xMidYMid meet"/>
+  <text x="93" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">player</text>
+  <rect x="172" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0001.svg" x="140" y="82" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="231" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0001</text>
+  <rect x="310" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0002.svg" x="278" y="82" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="369" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0002</text>
+  <rect x="448" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0003.svg" x="416" y="82" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="507" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0003</text>
+  <rect x="586" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0004.svg" x="554" y="82" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="645" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0004</text>
+  <rect x="724" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0005.svg" x="692" y="82" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="783" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0005</text>
+  <rect x="862" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0006.svg" x="830" y="82" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="921" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0006</text>
+  <rect x="1000" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0007.svg" x="968" y="82" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1059" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0007</text>
+  <rect x="1138" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0008.svg" x="1106" y="82" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1197" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0008</text>
+  <rect x="1276" y="108" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0009.svg" x="1244" y="82" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1335" y="238" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0009</text>
+  <rect x="34" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0010.svg" x="2" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="93" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0010</text>
+  <rect x="172" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0011.svg" x="140" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="231" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0011</text>
+  <rect x="310" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0012.svg" x="278" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="369" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0012</text>
+  <rect x="448" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0013.svg" x="416" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="507" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0013</text>
+  <rect x="586" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0014.svg" x="554" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="645" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0014</text>
+  <rect x="724" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0015.svg" x="692" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="783" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0015</text>
+  <rect x="862" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0016.svg" x="830" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="921" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0016</text>
+  <rect x="1000" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0017.svg" x="968" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1059" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0017</text>
+  <rect x="1138" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0018.svg" x="1106" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1197" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0018</text>
+  <rect x="1276" y="264" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0019.svg" x="1244" y="238" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1335" y="394" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0019</text>
+  <rect x="34" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0020.svg" x="2" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="93" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0020</text>
+  <rect x="172" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0021.svg" x="140" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="231" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0021</text>
+  <rect x="310" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0022.svg" x="278" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="369" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0022</text>
+  <rect x="448" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0023.svg" x="416" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="507" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0023</text>
+  <rect x="586" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0024.svg" x="554" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="645" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0024</text>
+  <rect x="724" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0025.svg" x="692" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="783" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0025</text>
+  <rect x="862" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0026.svg" x="830" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="921" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0026</text>
+  <rect x="1000" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0027.svg" x="968" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1059" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0027</text>
+  <rect x="1138" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0028.svg" x="1106" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1197" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0028</text>
+  <rect x="1276" y="420" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0029.svg" x="1244" y="394" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1335" y="550" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0029</text>
+  <rect x="34" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0030.svg" x="2" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="93" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0030</text>
+  <rect x="172" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0031.svg" x="140" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="231" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0031</text>
+  <rect x="310" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0032.svg" x="278" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="369" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0032</text>
+  <rect x="448" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0033.svg" x="416" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="507" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0033</text>
+  <rect x="586" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0034.svg" x="554" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="645" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0034</text>
+  <rect x="724" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0035.svg" x="692" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="783" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0035</text>
+  <rect x="862" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0036.svg" x="830" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="921" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0036</text>
+  <rect x="1000" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0037.svg" x="968" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1059" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0037</text>
+  <rect x="1138" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0038.svg" x="1106" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1197" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0038</text>
+  <rect x="1276" y="576" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0039.svg" x="1244" y="550" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1335" y="706" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0039</text>
+  <rect x="34" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0040.svg" x="2" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="93" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0040</text>
+  <rect x="172" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0041.svg" x="140" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="231" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0041</text>
+  <rect x="310" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0042.svg" x="278" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="369" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0042</text>
+  <rect x="448" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0043.svg" x="416" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="507" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0043</text>
+  <rect x="586" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0044.svg" x="554" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="645" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0044</text>
+  <rect x="724" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0045.svg" x="692" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="783" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0045</text>
+  <rect x="862" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0046.svg" x="830" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="921" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0046</text>
+  <rect x="1000" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0047.svg" x="968" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1059" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0047</text>
+  <rect x="1138" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0048.svg" x="1106" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1197" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0048</text>
+  <rect x="1276" y="732" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0049.svg" x="1244" y="706" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1335" y="862" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0049</text>
+  <rect x="34" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0050.svg" x="2" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="93" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0050</text>
+  <rect x="172" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0051.svg" x="140" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="231" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0051</text>
+  <rect x="310" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0052.svg" x="278" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="369" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0052</text>
+  <rect x="448" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0053.svg" x="416" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="507" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0053</text>
+  <rect x="586" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0054.svg" x="554" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="645" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0054</text>
+  <rect x="724" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0055.svg" x="692" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="783" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0055</text>
+  <rect x="862" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0056.svg" x="830" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="921" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0056</text>
+  <rect x="1000" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0057.svg" x="968" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1059" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0057</text>
+  <rect x="1138" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0058.svg" x="1106" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1197" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0058</text>
+  <rect x="1276" y="888" width="118" height="138" rx="6" fill="#fff8e8" stroke="#5a473a" stroke-width="3"/>
+  <image href="pokemon-0059.svg" x="1244" y="862" width="192" height="192" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1335" y="1018" fill="#26241f" font-size="13" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">0059</text>
+</svg>

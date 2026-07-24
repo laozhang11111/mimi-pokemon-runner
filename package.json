@@ -1,0 +1,11 @@
+{
+  "name": "pixel-hisui-runner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "assets": "node fetch-pokemon-assets.js",
+    "transparent-player": "node make-player-transparent.js",
+    "check": "node --check game.js && node --check server.js"
+  }
+}

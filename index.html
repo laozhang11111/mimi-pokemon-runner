@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>张米米大战宝可梦</title>
+    <link rel="preload" as="image" href="image/player-right.png" />
+    <link rel="preload" as="image" href="image/player-left.png" />
+    <link rel="preload" as="image" href="image/player-up.png" />
+    <link rel="preload" as="image" href="image/player-down.png" />
+    <link rel="preload" as="image" href="image/laozhang-right.png" />
+    <link rel="preload" as="image" href="image/laozhang-left.png" />
+    <link rel="preload" as="image" href="image/laozhang-up.png" />
+    <link rel="preload" as="image" href="image/laozhang-down.png" />
+    <link rel="preload" as="image" href="image/mama-right.png" />
+    <link rel="preload" as="image" href="image/mama-left.png" />
+    <link rel="preload" as="image" href="image/mama-up.png" />
+    <link rel="preload" as="image" href="image/mama-down.png" />
+    <link rel="preload" as="image" href="image/home-cover-wide.webp" type="image/webp" />
+    <link rel="preload" as="image" href="image/school-drawing-bg.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="game-panel" aria-label="像素横版躲避小游戏">
+        <div class="topbar">
+          <div class="brand">
+            <span class="pixel-mark" aria-hidden="true"></span>
+            <div>
+              <h1>张米米大战宝可梦</h1>
+              <p>方向键 / WASD / IJKL 移动，随机躲过 1025 只像素宝可梦</p>
+            </div>
+          </div>
+          <button id="restartButton" type="button">开始游戏</button>
+        </div>
+
+        <div class="hud" aria-live="polite">
+          <div class="hud-item">
+            <span>生命</span>
+            <div id="hearts" class="hearts" aria-label="当前生命值"></div>
+          </div>
+          <div class="hud-item">
+            <span>分数</span>
+            <strong id="score">0</strong>
+          </div>
+          <div class="hud-item">
+            <span>路程</span>
+            <strong id="distance">0m</strong>
+          </div>
+          <div class="hud-item">
+            <span>当前</span>
+            <strong id="currentPokemon">等待</strong>
+          </div>
+        </div>
+
+        <div class="canvas-wrap">
+          <canvas id="game" width="960" height="540" aria-label="游戏画面"></canvas>
+          <div id="overlay" class="overlay cover">
+            <div class="overlay-box">
+              <h2>准备出发</h2>
+              <p>紫衣小女孩正在洗翠小路上冒险。每躲过一只宝可梦得 1 分，满分 1025 分。</p>
+              <div class="mode-buttons">
+                <button id="singlePlayerButton" type="button" data-mode="single">单人模式</button>
+                <button id="dualPlayerButton" type="button" data-mode="dual">双人模式</button>
+                <button id="triplePlayerButton" type="button" data-mode="triple">三人模式</button>
+                <button id="historyButton" type="button" data-action="history">历史记录</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="touch-controls" aria-label="移动方向键">
+          <button class="touch-key up" type="button" data-key="ArrowUp" aria-label="向上">▲</button>
+          <button class="touch-key left" type="button" data-key="ArrowLeft" aria-label="向左">◀</button>
+          <button class="touch-key right" type="button" data-key="ArrowRight" aria-label="向右">▶</button>
+          <button class="touch-key down" type="button" data-key="ArrowDown" aria-label="向下">▼</button>
+        </div>
+        <aside class="scoreboard" aria-label="分数排行榜">
+          <h2>分数排行榜 Top20</h2>
+          <ol id="scoreHistory">
+            <li>启动本地服务后自动记录成绩</li>
+          </ol>
+        </aside>
+      </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>

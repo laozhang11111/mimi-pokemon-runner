@@ -1,0 +1,51 @@
+name: Deploy to Tencent Cloud
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create deployment package
+        run: |
+          tar \
+            --exclude='.git' \
+            --exclude='data/*.db' \
+            --exclude='data/*.db-*' \
+            -czf /tmp/pixel-hisui-runner.tar.gz .
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/tencent_cloud_deploy
+          chmod 600 ~/.ssh/tencent_cloud_deploy
+          ssh-keyscan -p "${{ secrets.SERVER_PORT || '22' }}" "${{ secrets.SERVER_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Upload package
+        run: |
+          scp \
+            -P "${{ secrets.SERVER_PORT || '22' }}" \
+            -i ~/.ssh/tencent_cloud_deploy \
+            /tmp/pixel-hisui-runner.tar.gz \
+            "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/tmp/pixel-hisui-runner.tar.gz"
+
+      - name: Deploy and restart service
+        run: |
+          ssh \
+            -p "${{ secrets.SERVER_PORT || '22' }}" \
+            -i ~/.ssh/tencent_cloud_deploy \
+            "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}" \
+            'set -e
+             mkdir -p /root/pixel-hisui-runner
+             tar -xzf /tmp/pixel-hisui-runner.tar.gz -C /root/pixel-hisui-runner
+             systemctl restart pixel-hisui-runner
+             systemctl status pixel-hisui-runner --no-pager'
