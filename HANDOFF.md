@@ -6,14 +6,17 @@
 
 - 项目名称：张米米大战宝可梦
 - 项目类型：网页 Canvas 横版躲避小游戏
-- 本地路径：`/Users/zhangduotian/Documents/Codex/2026-06-30/bang/pixel-hisui-runner`
-- GitHub 仓库：`laozhang11111/pixel-hisui-runner`
+- 当前独立归档路径：`/Users/zhangduotian/Documents/Codex/2026-07-22/users-zhangduotian-documents-codex-2026-06/mimi-pokemon-runner`
+- GitHub 独立仓库：`laozhang11111/mimi-pokemon-runner`
+- 历史来源：原 `pixel-hisui-runner` 仓库提交 `86f01a0`（2026-07-10，对战游戏改造前的完整横版游戏）
 - 线上域名：`http://mimi.zhangduotian.site`
 - 服务器：腾讯云轻量应用服务器，曾使用公网 IP `82.156.208.87`
 - 运行端口：Node 服务默认 `5173`
 - 数据库：SQLite，文件为 `data/scores.db`
 
 游戏核心是：玩家控制家庭角色躲避宝可梦，收集精灵球回血，通过宝可梦得分，最终得分写入 SQLite 排行榜。
+
+> 重要：本仓库专门保存 `mimi.zhangduotian.site` 的旧版横版躲避游戏。它与 `zhangduotian.site/duizhan/` 的宝可梦对战项目相互独立；维护或部署时不要把两个仓库的工作目录、服务目录和 GitHub Actions 密钥混用。
 
 ## 2. 用户长期偏好
 
